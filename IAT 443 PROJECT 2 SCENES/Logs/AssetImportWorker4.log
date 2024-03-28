@@ -1,0 +1,416 @@
+Unity Editor version:    2021.3.24f1 (cf10dcf7010d)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A8380)
+Darwin version:          22.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52332
+Successfully changed project path to: /Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES
+/Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8205313280] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 1583531911 [EditorId] 1583531911 [Version] 1048832 [Id] OSXEditor(0,Joannas-MBP-2.vc.shawcable.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8205313280] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 1583531911 [EditorId] 1583531911 [Version] 1048832 [Id] OSXEditor(0,Joannas-MBP-2.vc.shawcable.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 193.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56039
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002015 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 130.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joannalin/Documents/GitHub/IAT-443-PROJECT-2/IAT 443 PROJECT 2 SCENES/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.6 MB). Loaded Objects now: 4139.
+Memory consumption went from 156.5 MB to 155.9 MB.
+Total: 5.825625 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.121209 ms MarkObjects: 4.994208 ms  DeleteObjects: 0.465250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200713.379650 seconds.
+  path: Assets/3D models/wall-clock
+  artifactKey: Guid(864bbf1f7619e4d419920da708db48a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/wall-clock using Guid(864bbf1f7619e4d419920da708db48a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4185e1b8fc0be989341f0fa331fb44b') in 0.040166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.171275 seconds.
+  path: Assets/3D models/wall-clock/source
+  artifactKey: Guid(76384e2b9920f4be4b3b19b05a3c0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/wall-clock/source using Guid(76384e2b9920f4be4b3b19b05a3c0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6259b70ec74376938bb305fc41a326') in 0.001423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053724 seconds.
+  path: Assets/3D models/wall-clock/source/clock.blend
+  artifactKey: Guid(20ab74dfe528649b28df56bf7a3dcbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/wall-clock/source/clock.blend using Guid(20ab74dfe528649b28df56bf7a3dcbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8222ced80e3d0a4ef915cfe1aeb562c') in 1.462924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.468677 seconds.
+  path: Assets/Textures/office-carpet-fabric1-unity
+  artifactKey: Guid(5ee70e55d62044e12b25b9d06cc79870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/office-carpet-fabric1-unity using Guid(5ee70e55d62044e12b25b9d06cc79870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34a9e583049a7d23612c90d9f8f3cc9') in 0.003595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042735 seconds.
+  path: Assets/Textures/office-carpet-fabric1-unity/office-carpet-fabric_albedo.png
+  artifactKey: Guid(84f00edc1f896490cae39ba8b4e58006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/office-carpet-fabric1-unity/office-carpet-fabric_albedo.png using Guid(84f00edc1f896490cae39ba8b4e58006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aa22730127aeddf7f4b51659109e1e') in 0.812645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.359877 seconds.
+  path: Assets/Textures/office-carpet-fabric1-unity/New Material.mat
+  artifactKey: Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/office-carpet-fabric1-unity/New Material.mat using Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba57712302a233f909b2099c0de2197') in 1.411690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.411476 seconds.
+  path: Assets/Textures/office-carpet-fabric1-unity/carpet.mat
+  artifactKey: Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/office-carpet-fabric1-unity/carpet.mat using Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5631fc60944f9a9a6dccb0095e907f5') in 0.025272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 281.107407 seconds.
+  path: Assets/Textures/textures/wall.mat
+  artifactKey: Guid(164d7a1e7f156403c8863725795438c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures/wall.mat using Guid(164d7a1e7f156403c8863725795438c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d1e39b52b36a6f5bcc0f32eef1e9bf') in 0.082283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.591327 seconds.
+  path: Assets/Textures/office-carpet-fabric1-unity/carpet.mat
+  artifactKey: Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/office-carpet-fabric1-unity/carpet.mat using Guid(f975aff04b4f643268e052bb0b957909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956cfb8de162afa84fd8e31e6d5c703b') in 0.041041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.849459 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Normal_Vertical.png
+  artifactKey: Guid(eb81941566ef74ae09df5053e01e2238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Normal_Vertical.png using Guid(eb81941566ef74ae09df5053e01e2238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e86d2cc9eb274d8742290b106edb1b2') in 0.063051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003611 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+  artifactKey: Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga using Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a6db7036265baf950970809c12672d') in 0.659329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+  artifactKey: Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png using Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c4408410382935e4c24d2e9272df8f') in 0.010214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Options.png
+  artifactKey: Guid(62abaf77b3059466288eeb593d07d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Options.png using Guid(62abaf77b3059466288eeb593d07d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42b187e39199b1015960115472403e') in 0.008900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Smoothing.png
+  artifactKey: Guid(cdf1fb390ba0745ff99b8f37be0803e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Smoothing.png using Guid(cdf1fb390ba0745ff99b8f37be0803e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13a9c0d2142e9a72a00bae1999b7d8b') in 0.008797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga
+  artifactKey: Guid(3e27d9cfd3a59af4ebdf7444f6f57620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga using Guid(3e27d9cfd3a59af4ebdf7444f6f57620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ddffe8d8b0e115e7d1304010b0d3a7') in 0.008331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+  artifactKey: Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png using Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e150947648021ccd593429f45ffe7') in 0.008055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_Subdivide.png
+  artifactKey: Guid(241e08ff056bb40ea90eeb5745c045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_Subdivide.png using Guid(241e08ff056bb40ea90eeb5745c045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc182727970db01e7c8b48365caa73c') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Offset.png
+  artifactKey: Guid(80e67fafea209ad4aa1459b80c8db968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Offset.png using Guid(80e67fafea209ad4aa1459b80c8db968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d193ab4bcb5896bd227eb0da476e045') in 0.007826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintVertexColors@2x.png
+  artifactKey: Guid(e9923964da8ae4b448b112cc4acca85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintVertexColors@2x.png using Guid(e9923964da8ae4b448b112cc4acca85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328becfc5cf98d7a32456199957a9193') in 0.006718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintVertexColors.png
+  artifactKey: Guid(0f50c0fb392f2074ba1cbaeb54c18c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintVertexColors.png using Guid(0f50c0fb392f2074ba1cbaeb54c18c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eac8d7de334236258b229717cb3fdf') in 0.008239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga
+  artifactKey: Guid(03a71764f1184704c9a74acb7490450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga using Guid(03a71764f1184704c9a74acb7490450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a0d610f53bbada4974f635b07f8695') in 0.023609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Vertical.png
+  artifactKey: Guid(fc0d74759c05e45149f0d8110191cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Vertical.png using Guid(fc0d74759c05e45149f0d8110191cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e866ee8855522d31c7535530317384ba') in 0.009730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga
+  artifactKey: Guid(f15241bc5a839ea46bf857431081d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga using Guid(f15241bc5a839ea46bf857431081d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5757f552cc838aba9121e53d58c4f700') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png
+  artifactKey: Guid(22a0bd4ad30cf424abac166208225985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png using Guid(22a0bd4ad30cf424abac166208225985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b5c37f7fce36b4faa455c2262d5b7c') in 0.005450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintPrefabs.png
+  artifactKey: Guid(17b3e68d759f82f4ab942c6a3ddd2fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.polybrush/Content/Icons/Toolbar/PaintPrefabs.png using Guid(17b3e68d759f82f4ab942c6a3ddd2fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d48a15096843ceff4f4186ed5b9f679') in 0.007233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+  artifactKey: Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga using Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01dcb54a938e7d9a2947aee5370b35f') in 0.020360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_Subdivide_disabled.png
+  artifactKey: Guid(4a239944eb900466eba405e00fba39be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_Subdivide_disabled.png using Guid(4a239944eb900466eba405e00fba39be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b581b942b1bd578441a8157e6159a9') in 0.008186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga
+  artifactKey: Guid(c4a7fc95fd5ac3942b8e85ec6c60a1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga using Guid(c4a7fc95fd5ac3942b8e85ec6c60a1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2217e04ea7cecd80cafb43dad0f38684') in 0.009396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga using Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0eb6e90a7b8e3214729c631c1c8e969') in 0.007160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Boolean.png
+  artifactKey: Guid(1f012abb1184a47c48035dd54530fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Boolean.png using Guid(1f012abb1184a47c48035dd54530fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b7526c228e6b26c1c797d0fb47ef3') in 0.005251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+  artifactKey: Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga using Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10f34e853cb119033a831e2c5aa563a') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png
+  artifactKey: Guid(76b24fa8a46a2c14f9a7df1e975dc4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png using Guid(76b24fa8a46a2c14f9a7df1e975dc4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a222df9e0f4cce467e955543d16c1f0a') in 0.005846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_ProBuilderize_disabled.png
+  artifactKey: Guid(a4aab6c0e7ac6441c8bdf395d78415a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Object_ProBuilderize_disabled.png using Guid(a4aab6c0e7ac6441c8bdf395d78415a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71f0a6c582e052f87d4f3ce32fb7b6') in 0.005655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(6af82a665aaf44c41874a383a4225c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga using Guid(6af82a665aaf44c41874a383a4225c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21615ce41c2208546901d455bf24a121') in 0.007411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_GeoDrawing.png
+  artifactKey: Guid(d662a44726f8f4ae7bfe880c93229aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_GeoDrawing.png using Guid(d662a44726f8f4ae7bfe880c93229aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a069aae0e2e805e9c901902e8caa827') in 0.005527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/3D models/5x7-ojai-cali-rug/source/model/textures/ojai_back_4000.jpg
+  artifactKey: Guid(7d38e778688e34c99ab68d941045ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D models/5x7-ojai-cali-rug/source/model/textures/ojai_back_4000.jpg using Guid(7d38e778688e34c99ab68d941045ecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c166fa67240c13aac1f417a4add1e4f') in 0.065728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Textures/Light.psd
+  artifactKey: Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Textures/Light.psd using Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c70cafdd1ec745f7d7ee290e728fbd') in 0.131526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Standard Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png
+  artifactKey: Guid(7d6d5225d5a2b40e3959b66d13b6e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png using Guid(7d6d5225d5a2b40e3959b66d13b6e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f01a423c4fcdc72921d0b9effa4cd22') in 0.050619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b39bafc9712b62e4ecaa8427ac3a79') in 0.450832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.924291 seconds.
+  path: Assets/Textures/textures/wall.mat
+  artifactKey: Guid(164d7a1e7f156403c8863725795438c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures/wall.mat using Guid(164d7a1e7f156403c8863725795438c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f567a7568d176401d7d34c5b3c0562c') in 0.071427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 379.513146 seconds.
+  path: Assets/Textures/textures/beige_wall_001_nor_gl_4k.exr
+  artifactKey: Guid(e9204561541e34eadb2b5932d575e458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures/beige_wall_001_nor_gl_4k.exr using Guid(e9204561541e34eadb2b5932d575e458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ed0097bf72d51b30349db7c40aa3a9') in 0.175211 seconds 

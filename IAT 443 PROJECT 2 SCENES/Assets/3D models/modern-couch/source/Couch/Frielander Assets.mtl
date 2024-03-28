@@ -1,0 +1,42 @@
+# Blender MTL File: 'Frielander Assets.blend'
+# Material Count: 3
+
+newmtl Leather_bright
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather bright\\Plane_normal.png
+map_Kd D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather bright\\Plane_color.png
+map_Ns D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather bright\\Plane_roughness.png
+
+newmtl Pillow_Grey
+Ns 364.462798
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather grey\\Plane_bake_pbr_normal.png
+map_Kd D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather grey\\Plane_bake_pbr_diffuse.png
+map_Ns D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Leather grey\\Plane_bake_pbr_roughness.png
+
+newmtl wood_White_washed
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.033696 0.029841 0.027482
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Wood white washed\\Plane_bake_pbr_normal.png
+map_Kd D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Wood white washed\\Plane_bake_pbr_diffuse.png
+map_Ns D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Wood white washed\\Plane_bake_pbr_roughness.png
+refl D:\\Projects\\Scenes\\Frielander Office GTA5\\bakes\\Wood white washed\\Plane_bake_pbr_metalness.png
